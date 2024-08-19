@@ -1,0 +1,388 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Persiapkan diri Anda untuk sukses dalam ujian CPNS dengan bimbingan dari Kalijaga Institute. Kami berkomitmen memberikan pelajaran intensif, latihan soal, serta dukungan penuh hingga hari pelaksanaan ujian."
+    />
+    <meta
+      name="keywords"
+      content="CPNS, Bimbingan, Kalijaga Institute, Ujian CPNS, Persiapan CPNS"
+    />
+    <meta name="author" content="Kalijaga Institute" />
+    <title>Kalijaga Institute - Bimbingan CPNS</title>
+    <link rel="icon" type="image/x-icon" href="./asset/favicon.ico" />
+    <
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+  </head>
+  <body>
+    <nav class="py-4 fixed top-0 left-0 right-0 z-50 bg-yellow-400 px-3">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center">
+          <img src="./asset/logo.png" alt="Logo" class="w-[50px]" />
+        </div>
+
+        <div class="hidden md:flex space-x-6">
+          <a href="#hero-section" class="text-black hover:text-white">Home</a>
+          <a href="#feature-section" class="text-black hover:text-white"
+            >Keunggulan</a
+          >
+          <a href="#paket-section" class="text-black hover:text-white">Paket</a>
+          <a href="#testimoni-section" class="text-black hover:text-white"
+            >Testimoni</a
+          >
+          <a href="#teacher-section" class="text-black hover:text-white"
+            >Teacher</a
+          >
+        </div>
+
+        <div class="hidden md:flex space-x-6">
+          <a
+            href="#login-section"
+            class="text-white bg-black flex w-[102px] h-[42px] justify-center rounded-full items-center hover:opacity-90 transition-all"
+            >Masuk</a
+          >
+          <a
+            href="#register-section"
+            class="text-black bg-white flex w-[102px] h-[42px] justify-center rounded-full items-center hover:opacity-90 transition-all"
+            >Daftar</a
+          >
+        </div>
+
+        <div class="md:hidden pr-3">
+          <button id="mobile-menu-button" class="text-black text-[30px] w-fit">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div id="mobile-menu" class="fixed inset-0 bg-yellow-400 z-40 hidden">
+      <div class="flex justify-end p-4">
+        <button id="close-mobile-menu" class="text-black hover:text-white">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="flex flex-col pt-10 items-center mobile-menu gap-2">
+        <a href="#hero-section" class="text-black hover:text-white">Home</a>
+        <a href="#feature-section" class="text-black hover:text-white"
+          >Keunggulan</a
+        >
+        <a href="#paket-section" class="text-black hover:text-white">Paket</a>
+        <a href="#testimoni-section" class="text-black hover:text-white"
+          >Testimoni</a
+        >
+        <a href="#teacher-section" class="text-black hover:text-white"
+          >Teacher</a
+        >
+
+        <!-- Add login and register buttons -->
+        <a
+          href="#login-section"
+          class="text-white bg-black flex w-[102px] h-[42px] justify-center rounded-full items-center hover:bg-yellow-500 hover:text-black"
+          >Masuk</a
+        >
+        <a
+          href="#register-section"
+          class="text-black bg-white flex w-[102px] h-[42px] justify-center rounded-full items-center hover:bg-yellow-500"
+          >Daftar</a
+        >
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section
+      class="w-full bg-yellow-400 p-6 md:p-14 flex flex-col md:flex-row justify-center items-center pt-[80px] md:pt-[100px]"
+      id="hero-section"
+    >
+      <!-- Desc -->
+      <div class="md:max-w-[50%] flex flex-col gap-1">
+        <h2 class="text-black text-[48px] font-[500]">
+          Raih Impian Bersama<br />
+          Kalijaga Institute
+        </h2>
+        <p class="text-black text-[18px]">
+          Bergabunglah dengan kami untuk meraih kesuksesan dalam ujian CPNS.
+          Bimbingan intensif dengan pengajar berpengalaman sejak 2019.
+        </p>
+        <!-- btn -->
+        <div class="flex flex-col lg:flex-row gap-6 pt-6">
+          <a
+            href="#"
+            target="_blank"
+            class="bg-black text-white flex h-[40px] w-[216.30px] justify-center items-center rounded-full font-semibold tracking-wide hover:bg-gray-800"
+            >Daftar Sekarang</a
+          >
+          <a
+            href="https://api.whatsapp.com/send?phone=6287827773593&text=Halo%20Kalijaga%20Institute.%0ASaya%20ingin%20bertanya%20mengenai%20bimbingan%20CPNS.%0ASebelumnya%20perkenalkan%20saya%20%3A%0ANama%20%3A%0AAsal%20Instansi%20%3A%0AFormasi%20yang%20Diminati%20%3A"
+            target="_blank"
+            class="bg-white text-black flex h-[40px] w-[216.30px] justify-center items-center rounded-full font-semibold tracking-wide hover:bg-gray-100"
+            >Konsultasi Gratis</a
+          >
+        </div>
+      </div>
+      <!-- Img -->
+      <div class="md:max-w-[50%] pt-12 md:pt-0">
+        <img
+          src="./asset/kulmat/14.png"
+          alt="Kalijaga Institute"
+          class="object-cover"
+        />
+      </div>
+    </section>
+
+    <!-- complete progress -->
+    <div
+      class="relative w-full min-h-[700px] md:min-h-[150px] flex justify-center items-center"
+    >
+      <div
+        class="bg-white absolute top-[-30px] lg:top-[-80px] w-[85%] lg:w-[70%] flex flex-col md:flex-row justify-center items-center px-6 py-12 gap-12 rounded-3xl shadow-lg drop-shadow-lg"
+      >
+        <!-- item -->
+        <div class="flex flex-col gap-3 text-center">
+          <strong class="text-[60px] text-[#393F49] font-sans">10+</strong>
+          <p class="font-bold text-[20px]">Sesi Selesai</p>
+        </div>
+        <div class="flex flex-col gap-3 text-center">
+          <strong class="text-[60px] text-[#393F49] font-sans">800+</strong>
+          <p class="font-bold text-[20px]">Peserta Terdaftar</p>
+        </div>
+        <div class="flex flex-col gap-3 text-center">
+          <strong class="text-[60px] text-[#393F49] font-sans">10+</strong>
+          <p class="font-bold text-[20px]">Instruktur Online</p>
+        </div>
+        <div class="flex flex-col gap-3 text-center">
+          <strong class="text-[60px] text-[#393F49] font-sans">>75%</strong>
+          <p class="font-bold text-[20px]">Tingkat Kepuasan</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature section -->
+    <section
+      class="flex flex-col w-full justify-center items-center min-h-screen px-2 py-16"
+      id="feature-section"
+    >
+      <h3 class="text-[36px] text-center font-[500] tracking-wide">
+        Bersama Kalijaga Institute <br />
+        Bikin Belajarmu Makin Seru!
+      </h3>
+      <p class="text-[20px] text-[#767676] text-center tracking-wide">
+        Temukan Pengalaman Belajar yang Intens dan Inspiratif <br />
+        dengan Kalijaga Institute
+      </p>
+      <div class="flex flex-col md:flex-row md:px-[5%] py-16 gap-12">
+        <!-- card 1 -->
+        <div
+          class="flex flex-col justify-center items-center gap-4 text-center px-3"
+        >
+          <img src="./asset/kulmat/1.png" alt="" class="w-[100px] h-[100px]" />
+          <p class="text-[20px] tracking-wide">Belajar Seru</p>
+          <p class="text-[14px] text-[#999999] tracking-wide">
+            Belajar bareng super teacher <br />
+            mudah dimengerti dan gak <br />
+            ngebosenin!
+          </p>
+        </div>
+        <!-- card 2 -->
+        <div
+          class="flex flex-col justify-center items-center gap-4 text-center px-3"
+        >
+          <img src="./asset/kulmat/2.png" alt="" class="w-[100px] h-[100px]" />
+          <p class="text-[20px] tracking-wide">Materi Terbaru</p>
+          <p class="text-[14px] text-[#999999] tracking-wide">
+            Belajar materi yang pasti-pasti <br />
+            aja dan tentunya sesuai kisi-kisi <br />
+            terbaru
+          </p>
+        </div>
+        <!-- card 3 -->
+        <div
+          class="flex flex-col justify-center items-center gap-4 text-center px-3"
+        >
+          <img src="./asset/kulmat/3.png" alt="" class="w-[100px] h-[100px]" />
+          <p class="text-[20px] tracking-wide">Try Out</p>
+          <p class="text-[14px] text-[#999999] tracking-wide">
+            Soal Try Out HOTS sesuai kisi-kisi <br />
+            terbaru lengkap dengan <br />
+            pembahasannya
+          </p>
+        </div>
+        <!-- card 4 -->
+        <div
+          class="flex flex-col justify-center items-center gap-4 text-center px-3"
+        >
+          <img src="./asset/kulmat/4.png" alt="" class="w-[100px] h-[100px]" />
+          <p class="text-[20px] tracking-wide">Kawan Sukses</p>
+          <p class="text-[14px] text-[#999999] tracking-wide">
+            Teman-teman satu tujuan <br />
+            untuk berjuang bersama raih impian
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Section -->
+    <section class="bg-yellow-400 p-6 md:p-12" id="why-section">
+      <div
+        class="flex flex-col md:flex-row justify-center items-center md:gap-12"
+      >
+        <!-- Content -->
+        <div class="md:w-[480px] overflow-hidden rounded-lg">
+          <img
+            src="./asset/kulmat/5.png"
+            alt="Kalijaga Institute"
+            class="object-cover"
+          />
+        </div>
+
+        <!-- desc why -->
+        <div class="md:max-w-[50%]">
+          <h3 class="text-[36px] text-black tracking-wide">
+            Mengapa Memilih Kalijaga Institute untuk Persiapan CPNS Anda?
+          </h3>
+          <p class="text-[16px] text-black tracking-wide">
+            Kalijaga Institute, berdiri sejak 2019, adalah mitra terpercaya Anda
+            dalam perjalanan menjadi Pegawai Negeri Sipil. Kami memahami
+            dedikasi dan tekad Anda, dan hadir untuk memastikan keberhasilan
+            Anda dalam ujian CPNS.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimoni-section">
+      <div
+        class="flex flex-col justify-center items-center py-12 gap-12 overflow-hidden"
+      >
+        <!-- title -->
+        <div class="flex flex-col gap-3 text-center">
+          <h3 class="text-[#121212] text-[36px] capitalize tracking-wide px-6">
+            kata mereka tentang Kalijaga Institute
+          </h3>
+          <p class="text-[#767676] text-[20px] px-6">
+            Berbagai kisah sukses alumni Kalijaga Institute
+          </p>
+        </div>
+
+        <!-- card -->
+        <div class="py-12 grid w-full min-h-screen px-6" id="testimoni"></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bg-yellow-400 p-6 md:p-12" id="contact-section">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-black text-center mb-8">
+          Hubungi Kami
+        </h2>
+        <div class="bg-white rounded-lg shadow-lg p-6 max-w-2xl mx-auto">
+          <h3 class="text-xl font-semibold text-black mb-4">Sekretariat:</h3>
+          <p class="text-gray-700 mb-2">
+            Perum GBK Tempel 1 No.38 Tempel – Gatak – Sukoharjo
+          </p>
+          <p class="text-gray-700 mb-2">Jawa Tengah</p>
+          <div class="mt-6">
+            <a
+              href="https://api.whatsapp.com/send?phone=6287827773593"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-green-500 text-white py-2 px-4 rounded-full inline-flex items-center hover:bg-green-600 transition duration-300"
+            >
+              <svg
+                class="w-5 h-5 mr-2"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                />
+              </svg>
+              Chat via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+      <
+    </section>
+
+    <!-- Footer -->
+    <footer class="w-full pt-12 pb-3 px-[10%] bg-yellow-400">
+      <div
+        class="w-full items-center py-12 border-t-2 border-white mx-auto flex-row-reverse gap-12"
+      >
+        <div class="flex gap-3 w-full">
+          <!-- Ikon Twitter -->
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!-- Ikon Facebook -->
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+          <!-- Ikon YouTube -->
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
+          <!-- Ikon Instagram -->
+          <a
+            href="https://www.instagram.com/bisalulus"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div class="flex w-full">
+          <p class="text-white">
+            &copy; Copyright 2024. All Rights Reserved by
+            <a href="https://kuliahmatematika.vercel.app/"
+              >Kalijaga Institute</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- script -->
+    <script src="app.js"></script>
+    <script src="testimoni.js"></script>
+  </body>
+</html>
