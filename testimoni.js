@@ -37,6 +37,18 @@ let testimoni = [
     },
 ];
 
+let brosur = [
+    {
+        img: './asset/brosur/brosur-1.jpeg'
+    },
+    {
+        img: './asset/brosur/brosur-2.jpeg'
+    },
+    {
+        img: './asset/brosur/brosur-3.jpeg'
+    },
+];
+
 
 testimoni.map(item => $('#testimoni').append(
     `
@@ -45,6 +57,19 @@ testimoni.map(item => $('#testimoni').append(
             <img src="${item.img}" alt="Testimoni" class="w-full h-auto">
         </div>
        
+    </div>
+    `
+));
+
+brosur.map(item => $('#brosur').append(
+    `
+    <div class="max-w-4xl mx-auto">
+        <img 
+        src="${item.img}" 
+        alt="Brosur Kalijaga Institute" 
+        class="w-full h-auto rounded-lg shadow-lg"
+        loading="lazy"
+        />
     </div>
     `
 ));
