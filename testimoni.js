@@ -33,6 +33,30 @@ let testimoni = [
         img: './asset/testimoni/mina.jpeg'
     },
     {
+        img: './asset/testimoni/amalia.jpeg'
+    },
+    {
+        img: './asset/testimoni/erin.jpeg'
+    },
+    {
+        img: './asset/testimoni/fatin.jpeg'
+    },
+    {
+        img: './asset/testimoni/indah.jpeg'
+    },
+    {
+        img: './asset/testimoni/putri.jpeg'
+    },
+    {
+        img: './asset/testimoni/reisya.jpeg'
+    },
+    {
+        img: './asset/testimoni/tindaon.jpeg'
+    },
+    {
+        img: './asset/testimoni/ulina.jpeg'
+    },
+    {
         img: './asset/testimoni/indriyani.jpeg'
     },
 ];
