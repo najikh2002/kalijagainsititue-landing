@@ -63,13 +63,16 @@ let testimoni = [
 
 let brosur = [
     {
-        img: './asset/brosur/brosur-1.jpeg'
+        img: './asset/brosur/brosur-1.jpeg',
+        link: null
     },
     {
-        img: './asset/brosur/brosur-2.jpeg'
+        img: './asset/brosur/brosur-2.jpeg',
+        link: null 
     },
     {
-        img: './asset/brosur/brosur-3.jpeg'
+        img: './asset/brosur/brosur-3.jpeg',
+        link: 'https://bit.ly/WebinarKI25Agustus24'
     },
 ];
 
@@ -85,18 +88,27 @@ testimoni.map(item => $('#testimoni').append(
     `
 ));
 
-brosur.map(item => $('#brosur').append(
-    `
-    <div class="max-w-4xl mx-auto">
-        <img 
-        src="${item.img}" 
-        alt="Brosur Kalijaga Institute" 
-        class="w-full h-auto rounded-lg shadow-lg"
-        loading="lazy"
-        />
-    </div>
-    `
-));
+brosur.map(item => {
+    const buttonLabel = item.link ? 'Daftar Sekarang' : 'Segera Hadir';
+    const buttonClass = item.link ? 'bg-yellow-500 hover:bg-yellow-600 text-white' : 'bg-gray-400 text-white cursor-not-allowed';
+    const buttonLink = item.link ? `href="${item.link}"` : '';
+
+    $('#brosur').append(
+        `
+        <div class="max-w-4xl mx-auto mb-4">
+            <img 
+            src="${item.img}" 
+            alt="Brosur Kalijaga Institute" 
+            class="w-full h-auto rounded-lg shadow-lg mb-2"
+            loading="lazy"
+            />
+            <a ${buttonLink} class="block text-center py-2 px-4 rounded ${buttonClass}">
+                ${buttonLabel}
+            </a>
+        </div>
+        `
+    );
+});
 
 
 
