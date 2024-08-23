@@ -67,10 +67,6 @@ let brosur = [
         link: null
     },
     {
-        img: './asset/brosur/brosur-2.jpeg',
-        link: null 
-    },
-    {
         img: './asset/brosur/brosur-3.jpeg',
         link: 'https://bit.ly/WebinarKI25Agustus24'
     },
