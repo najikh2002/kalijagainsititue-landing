@@ -102,9 +102,9 @@ let brosur = [
 
 testimoni.map(item => $('#testimoni').append(
     `
-    <div class="w-full shadow-[0px_0px_8px_0px_rgba(0,0,0,0.10)] mx-4" style="display: flex; flex-direction: column; border-radius: 20px; overflow: hidden;">
-        <div class="w-full h-64 md:h-80 lg:h-96">
-            <img src="${item.img}" alt="Testimoni" class="w-full h-full object-contain">
+    <div class="w-full shadow-[0px_0px_8px_0px_rgba(0,0,0,0.10)] mx-auto" style="max-width: 280px; display: flex; flex-direction: column; border-radius: 20px; overflow: hidden;">
+        <div class="w-full" style="aspect-ratio: 9/19;">
+            <img src="${item.img}" alt="Testimoni" class="w-full h-full object-cover">
         </div>
     </div>
     `
