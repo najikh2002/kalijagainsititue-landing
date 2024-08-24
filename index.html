@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
   <head>
     <!-- meta stying -->
     <meta property="og:title" content="Kalijaga Institute" />
@@ -43,7 +44,7 @@
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
   </head>
-  <body style="scroll-behavior: smooth">
+  <body>
     <nav class="py-4 fixed top-0 left-0 right-0 z-50 bg-yellow-400 px-3">
       <div class="container mx-auto flex justify-between items-center">
         <div class="flex items-center">
@@ -60,19 +61,18 @@
             >Testimoni</a
           >
           <a href="#contact-section" class="text-black hover:text-white"
-            >contact</a
+            >Contact</a
+          >
+          <a href="https://cbt.kuliahmatematika.online" class="text-black hover:text-white" target="_blank"
+            >Tryout</a
           >
         </div>
 
         <div class="hidden md:flex space-x-6">
           <a
-            href="#login-section"
-            class="text-white bg-black flex w-[102px] h-[42px] justify-center rounded-full items-center hover:opacity-90 transition-all"
-            >Masuk</a
-          >
-          <a
             href="#register-section"
-            class="text-black bg-white flex w-[102px] h-[42px] justify-center rounded-full items-center hover:opacity-90 transition-all"
+            class="text-black font-bold bg-white flex w-[102px] h-[42px] justify-center rounded-full items-center hover:opacity-90 transition-all"
+            target="_blank"
             >Daftar</a
           >
         </div>
@@ -103,16 +103,14 @@
         <a href="#contact-section" class="text-black hover:text-white"
           >Contact</a
         >
-
+        <a href="https://cbt.kuliahmatematika.online" class="text-black hover:text-white" target="_blank"
+          >Tryout</a
+        >
         <!-- Add login and register buttons -->
         <a
-          href="#login-section"
-          class="text-white bg-black flex w-[102px] h-[42px] justify-center rounded-full items-center hover:bg-yellow-500 hover:text-black"
-          >Masuk</a
-        >
-        <a
           href="#register-section"
-          class="text-black bg-white flex w-[102px] h-[42px] justify-center rounded-full items-center hover:bg-yellow-500"
+          class="text-black font-bold bg-white flex w-[102px] h-[42px] justify-center rounded-full items-center hover:bg-yellow-500"
+          target="_blank"
           >Daftar</a
         >
       </div>
@@ -168,7 +166,7 @@
       >
         <!-- item -->
         <div class="flex flex-col gap-3 text-center">
-          <strong class="text-[60px] text-[#393F49] font-sans">10+</strong>
+          <strong class="text-[60px] text-[#393F49] font-sans">20+</strong>
           <p class="font-bold text-[20px]">Sesi Selesai</p>
         </div>
         <div class="flex flex-col gap-3 text-center">
@@ -176,11 +174,11 @@
           <p class="font-bold text-[20px]">Peserta Terdaftar</p>
         </div>
         <div class="flex flex-col gap-3 text-center">
-          <strong class="text-[60px] text-[#393F49] font-sans">10+</strong>
+          <strong class="text-[60px] text-[#393F49] font-sans">20+</strong>
           <p class="font-bold text-[20px]">Instruktur Online</p>
         </div>
         <div class="flex flex-col gap-3 text-center">
-          <strong class="text-[60px] text-[#393F49] font-sans">>75%</strong>
+          <strong class="text-[60px] text-[#393F49] font-sans">>70%</strong>
           <p class="font-bold text-[20px]">Tingkat Kepuasan</p>
         </div>
       </div>
@@ -193,10 +191,7 @@
     </section>
 
     <!-- Feature section -->
-    <section
-      class="flex flex-col w-full justify-center items-center min-h-screen px-2 py-16"
-      id="feature-section"
-    >
+    <section class="flex flex-col w-full justify-center items-center min-h-screen px-2 py-16" id="feature-section">
       <h3 class="text-[36px] text-center font-[500] tracking-wide">
         Bersama Kalijaga Institute <br />
         Bikin Belajarmu Makin Seru!
@@ -205,7 +200,7 @@
         Temukan Pengalaman Belajar yang Intens dan Inspiratif <br />
         dengan Kalijaga Institute
       </p>
-      <div class="flex flex-col md:flex-row md:px-[5%] py-16 gap-12">
+      <div class="flex flex-col md:grid md:grid-cols-3 md:px-[5%] py-16 gap-12">
         <!-- card 1 -->
         <div
           class="flex flex-col justify-center items-center gap-4 text-center px-3"
@@ -253,42 +248,84 @@
             untuk berjuang bersama raih impian
           </p>
         </div>
-      </div>
-    </section>
-
-    <!-- Why Section -->
-    <section class="bg-yellow-400 p-6 md:p-12" id="why-section">
-      <div
-        class="flex flex-col md:flex-row justify-center items-center md:gap-12"
-      >
-        <!-- Content -->
-        <div class="md:w-[480px] overflow-hidden rounded-lg">
-          <img
-            src="./asset/kulmat/5.png"
-            alt="Kalijaga Institute"
-            class="object-cover"
-          />
+        <!-- card 5 -->
+        <div
+          class="flex flex-col justify-center items-center gap-4 text-center px-3"
+        >
+          <img src="./asset/kulmat/6.png" alt="" class="w-[100px] h-[100px]" />
+          <p class="text-[20px] tracking-wide">Gratis Bimbingan Ulang</p>
+          <p class="text-[14px] text-[#999999] tracking-wide">
+            Jika belum lulus tahun ini <br>
+            tahun berikutnya gratis mengulang
+          </p>
         </div>
-
-        <!-- desc why -->
-        <div class="md:max-w-[50%]">
-          <h3 class="text-[36px] text-black tracking-wide">
-            Mengapa Memilih Kalijaga Institute untuk Persiapan CPNS Anda?
-          </h3>
-          <p class="text-[16px] text-black tracking-wide">
-            Kalijaga Institute, berdiri sejak 2019, adalah mitra terpercaya Anda
-            dalam perjalanan menjadi Pegawai Negeri Sipil. Kami memahami
-            dedikasi dan tekad Anda, dan hadir untuk memastikan keberhasilan
-            Anda dalam ujian CPNS.
+        <!-- card 6 -->
+        <div
+          class="flex flex-col justify-center items-center gap-4 text-center px-3"
+        >
+          <img src="./asset/kulmat/7.png" alt="" class="w-[100px] h-[100px]" />
+          <p class="text-[20px] tracking-wide">Bonus Bimbingan</p>
+          <p class="text-[14px] text-[#999999] tracking-wide">
+            Bonus bimbingan satu kali perminggu <br>
+            sampai hari tes
           </p>
         </div>
       </div>
     </section>
 
-    <section id="testimoni-section">
-      <div
-        class="flex flex-col justify-center items-center py-12 gap-12 overflow-hidden"
-      >
+    <!-- Why Section -->
+    <section class="bg-yellow-400 py-8 md:py-16 px-4 md:px-8" id="why-section">
+      <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-start gap-8 md:gap-12">
+          <!-- Video Content -->
+          <div class="w-full md:w-1/2 lg:w-[480px]">
+            <div class="relative w-full h-0 pb-[56.25%] rounded-lg overflow-hidden shadow-lg">
+              <iframe 
+                class="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube-nocookie.com/embed/YyLdE4S4uso" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="w-full md:w-1/2 lg:w-[calc(100%-480px-3rem)] mt-8 md:mt-0">
+            <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-4 md:mb-6">
+              Mengapa Memilih Kalijaga Institute untuk Persiapan CPNS Anda?
+            </h3>
+            <p class="text-base md:text-lg text-black leading-relaxed">
+              Kalijaga Institute, berdiri sejak 2019, adalah mitra terpercaya Anda
+              dalam perjalanan menjadi Pegawai Negeri Sipil. Kami memahami
+              dedikasi dan tekad Anda, dan hadir untuk memastikan keberhasilan
+              Anda dalam ujian CPNS.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Paket Section -->
+  <section id="paket-section">
+      <div class="flex flex-col justify-center items-center px-6 md:px-2 py-12 min-h-screen gap-12">
+          <div class="flex flex-col items-center justify-center text-center">
+              <h3 class="text-[36px] tracking-wide">Paket Belajar Terbaik untuk Persiapan Ujianmu</h3>
+              <p class="text-[20px] text-[#767676]">Temukan Paket Belajar yang Sesuai dengan Tujuan dan Kebutuhanmu</p>
+          </div>
+          <!-- paket card -->
+          <div class="flex flex-col items-center gap-6 justify-center">
+              <!-- rows 2 -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center" id="paket">
+                  <!-- Paket Card Render in JS -->
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Testimoni Section -->
+  <section id="testimoni-section">
+      <div class="flex flex-col justify-center items-center py-12 gap-12 overflow-hidden">
         <!-- title -->
         <div class="flex flex-col gap-3 text-center">
           <h3 class="text-[#121212] text-[36px] capitalize tracking-wide px-6">
@@ -300,9 +337,11 @@
         </div>
 
         <!-- card -->
-        <div class="py-12 grid w-full min-h-screen px-6" id="testimoni"></div>
+        <div class="py-12 px-6 w-full min-h-screen" id="testimoni-container">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto" id="testimoni"></div>
+        </div>
       </div>
-    </section>
+  </section>
 
     <!-- Contact Section -->
     <section class="bg-yellow-400 p-6 md:p-12" id="contact-section">
